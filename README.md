@@ -28,3 +28,14 @@ Este projeto é um script simples em Python desenvolvido uma função que verifi
 - funcao_palindromo.py -> função que faz a verificação
 - main.py -> script principal que interage com usúario
 
+## 3. Desenvolvimento da função_palindromo()
+
+- Definição da função - def palindromo(texto):
+ - Criada uma função chamada palindromo que recebe o parâmetro texto que pode ser uma palavra ou frase
+ - Toda vez que chamar essa função, vai passar o que quer verificar
+ - texto.lower() -> Converte todas as letras para minúsculas
+ - .split() -> Separa o texto por espaços, gerando uma lista de palavras
+ - .join(...) -> Junta todas as palavras da lista em uma única string, sem espaços
+ - return texto == texto[:: -1] -> Inverte o texto usando fatiamento
+
+ 
